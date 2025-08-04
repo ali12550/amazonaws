@@ -1,52 +1,54 @@
-
-.btn_click{
-    background-color:red !important;  
+.btn_click {
+    background-color: red !important;
 }
 
-.btn_contact{
+.btn_contact {
     background-color: rgb(246, 246, 137) !important;
 }
 
 /* text style start*/
-.heading_one{
+.heading_one {
     text-transform: capitalize;
     color: black;
     font-size: 30px !important;
     text-align: center !important;
 }
-.heading_two{
+
+.heading_two {
     text-transform: capitalize !important;
     color: black !important;
     text-align: center !important;
     font-size: 25px !important;
     font-weight: 600 !important;
 }
-.text_para{
+
+.text_para {
     color: black !important;
     font-size: 17px !important;
     text-align: center !important;
     line-height: 1.4 !important;
 }
 
-h1.heading_one{
-}
+h1.heading_one {}
 
 
 /* text style end */
-.border_0{
+.border_0 {
     border: unset !important;
 }
-.d_none{
+
+.d_none {
     display: none !important;
 }
-.bg_none{
+
+.bg_none {
     background-color: unset !important;
     background: none !important;
 }
 
-#page-title{
-}
-.light-borders, div#page-content.light-borders{
+#page-title {}
+
+.light-borders, div#page-content.light-borders {
     border: unset !important;
 
 }
@@ -54,18 +56,29 @@ h1.heading_one{
 
 /* about us page style start */
 
-.about_wrapper{
+.about_wrapper {
     display: flex !important;
     align-items: center !important;
     justify-content: space-between !important;
 }
-.about_container .col_1{
+
+.page_content .col_100 {
+    width: 100%;
+}
+
+.page_content .col_50 {
     width: 50%;
 }
-.about_container .col_2{
-    width: 50%;
+
+.page_content .col_25 {
+    width: 25%;
 }
-.about_con_left{
+
+.page_content .col_75 {
+    width: 75%;
+}
+
+.about_con_left {
     /* min-height: 400px !important;
     background: url("https://s3.amazonaws.com/autoprint/115/cms_images/2327/h6_img1.png") !important;
     background-repeat: no-repeat !important;
@@ -74,7 +87,9 @@ h1.heading_one{
     max-width: 700px !important;
 
 }
-.about_con_left img{
+
+.about_con_left img {
     width: 100%;
 }
+
 /* about us page style end */
