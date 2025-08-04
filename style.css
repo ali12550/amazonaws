@@ -56,5 +56,9 @@ h1.heading_one{
 .about_con_left{
     min-height: 400px !important;
     background: url("https://s3.amazonaws.com/autoprint/115/cms_images/2327/h6_img1.png") !important;
+    max-width: 500px !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    margin: auto !important;
 }
 /* about us page style end */
