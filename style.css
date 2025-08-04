@@ -109,11 +109,7 @@ h1.heading_one {}
             --medium-gray: #e9ecef;
         }
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: var(--text-color);
-        }
+      
 
         .hero-section {
             background: linear-gradient(135deg, var(--primary-color) 0%, #333333 100%);
