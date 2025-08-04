@@ -9,6 +9,7 @@
 .heading_one{
     text-transform: capitalize;
     color: black;
+    font-size: 30px;
 }
 h1.heading_one{
 }
