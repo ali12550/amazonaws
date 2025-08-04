@@ -34,6 +34,9 @@ h1.heading_one{
 .border_0{
     border: unset !important;
 }
+.display_none{
+    display: none !important;
+}
 .bg_none{
     background-color: unset !important;
     background: none !important;
