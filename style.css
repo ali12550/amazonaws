@@ -55,7 +55,13 @@ h1.heading_one{
 .about_wrapper{
     display: flex !important;
     align-items: center !important;
-    justify-content: center !important;
+    justify-content: space-between !important;
+}
+.about_container .col_1{
+    width: 50%;
+}
+.about_container .col_2{
+    width: 50%;
 }
 .about_con_left{
     /* min-height: 400px !important;
