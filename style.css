@@ -21,6 +21,10 @@
 .category-group-item .group-title{
     font-size: 16px !important;
 }
+.nav-expanded .category-group-item{
+    padding-left:7px ;
+    padding-right:7px ;
+}
 
 /* navbar end */
 .btn_contact {
