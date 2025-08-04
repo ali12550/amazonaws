@@ -9,8 +9,8 @@
 .heading_one{
     text-transform: capitalize;
     color: black;
-    font-size: 30px;
-    text-align: center;
+    font-size: 30px !important;
+    text-align: center !important;
 }
 h1.heading_one{
 }
