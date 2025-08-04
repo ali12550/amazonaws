@@ -23,3 +23,6 @@ h1.heading_one{
 #page-title{
     background-color: unset !important;
 }
+.light-borders, div#page-content.light-borders{
+    border: unset !important;
+}
