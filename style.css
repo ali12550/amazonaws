@@ -160,7 +160,7 @@ h1.heading_one {}
         .feature-icon {
             width: 70px;
             height: 70px;
-            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            background: linear-gradient(135deg, var(--primary-color), rgb(19, 129, 205));
             border-radius: 50%;
             display: flex;
             align-items: center;
