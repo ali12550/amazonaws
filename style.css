@@ -101,7 +101,7 @@ h1.heading_one {}
 
         :root {
             --primary-color: #000000;
-            --secondary-color: #000000;
+            --secondary-color: rgb(19, 129, 205);
             /* --secondary-color: #3498db; */
             --accent-color: #ffffff;
             --text-color: #000000;
