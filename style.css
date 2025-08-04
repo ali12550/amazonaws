@@ -48,3 +48,12 @@ h1.heading_one{
     border: unset !important;
 
 }
+
+
+/* about us page style start */
+
+
+.con_left{
+    background: url("https://s3.amazonaws.com/autoprint/115/cms_images/2327/h6_img1.png");
+}
+/* about us page style end */
