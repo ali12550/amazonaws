@@ -18,12 +18,12 @@ h1.heading_one{
 }
 .bg_none{
     background-color: unset !important;
-    background: unset !important;
+    background: none !important;
 }
 
 #page-title{
     background-color: unset !important;
-    background: unset !important;
+    background: none !important;
 }
 .light-borders, div#page-content.light-borders{
     border: unset !important;
