@@ -3428,25 +3428,8 @@ textarea.form-control-lg {
     opacity: 0
 }
 
-.collapse:not(.show) {
-    display: none
-}
 
-.collapsing {
-    height: 0;
-    overflow: hidden;
-    transition: height .35s ease
-}
 
-@media (prefers-reduced-motion:reduce) {
-    .collapsing {
-        transition: none
-    }
-}
-
-.dropdown, .dropend, .dropstart, .dropup {
-    position: relative
-}
 
 .dropdown-toggle {
     white-space: nowrap

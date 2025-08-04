@@ -1,43 +1,35 @@
-<link href="https://ali12550.github.io/amazonaws/style.css
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://ali12550.github.io/amazonaws/bootstrap.css
 " rel="stylesheet" type="text/css">
-%<%
-    
+</head>
+<body>
+    <div class="page_content px-sm-4">
+<h1 id="page-title" class="border_0  heading_one bg_none">About Us</h1>
+<div class="about_container container ">
 
-    load("settings", "settings");
-    load('theme', 'theme');
-%>%
-<div id="page-content" class="%<% echo getThemeSetting("border_color"); %>%  %<% echo getThemeSetting("border_radius"); %>% %<% echo getThemeSetting("accent_color"); %>%">
-    <div id="page-title-bg"></div>
-    <h1 id="page-title" class="%<% echo getThemeSetting("border_radius"); %>%">About %<%=getSetting("dbVar_companyName")%>%</h1>
-    <div class="inner-content about-us-content %<% echo getThemeSetting("border_radius"); %>%">
 
-        <br /> <br />
-        <h2 class="services-title"><strong>About Us</strong></h2>
-        <h2 class="sub-title">A helpful customer service staff lead by seasoned veterans of the printing industry.</h2>
-        <a href="/contact/contact.html">
-            <button class="btn btn-success btn-large design-services-button btn_contact">Contact Us Here For Assistance</button>
-        </a>
-        <div class="about-lower-content">
-            <h3 class="services-headings">A history of high standards and quick production turnaround in the printing industry.</h3>
-            <p><strong>
-                    %<%=getSetting("dbVar_companyName")%>%</strong> is a full service online print and design company that specializes in full color offset and digital printing. Not too many print companies, if any, offer the same services. We stand behind printing and design services, we are so sure you'll be satisfied that we offer guarantees on quality, turnaround, and pricing.
-            </p>
-            <p>Having been in business for many years, we have the experience, understanding and patience to make sure your print job comes out fast and accurate. </p>
-        </div>
-    </div>
-</div>
 
-<div class="about_container">
-    <div class="about_wrapper">
-        <div>
+    <div class="about_wrapper row">
+        <div class="col-md-6">
             
-            <h2 class="heading_two">A helpful customer service staff lead by seasoned veterans of the printing industry.</h2>
+            <h2 class="heading_two mb-4">About Company</h2>
 
 
-            <p class="text_para">Having been in business for many years, we have the experience, understanding and patience to make sure your print job comes out fast and accurate. </p>
+            <p class="text_para  fs-4 text lh-base text-center">We offer our customers a wide product range. Our collection ranges from stationery products such as business cards or letterheads to brochures, flyers and leaflets with high-quality finishing or advertising technology products like roller banners, tarpaulins and exhibition counters. State-of-the-art printing presses and our highly qualified team guarantee professional print products of exceptional quality at affordable prices. We are continually optimising and expanding our product portfolio, so that you and your customers are fully equipped for your business, advertising and trade fair needs. </p>
         </div>
-        <div class="about_con_left">
-            <img src="https://s3.amazonaws.com/autoprint/115/cms_images/2327/h6_img1.png" alt="">
+        <div class="about_con_left col-md-6">
+             <img src="https://s3.amazonaws.com/autoprint/115/cms_images/2327/h6_img1.png" alt="">
         </div>
+</div>
+<!--   custom end-->
     </div>
 </div>
+</body>
+</html>
+<!--  custom  -->
+
