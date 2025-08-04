@@ -17,3 +17,6 @@
 .bg_none{
     background-color: unset !important;
 }
+#page-title{
+    background-color: unset !important;
+}
