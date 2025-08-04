@@ -1,7 +1,26 @@
-.btn_click {
-    background-color: red !important;
+
+/* navbar */
+#multiple-datasets {
+    width: 100% !important;
 }
 
+.nav-expanded ul {
+    margin-top: 25px !important;
+}
+
+.nav-expanded li {
+    margin-bottom: 12px !important;
+}
+
+.nav-expanded a {
+    text-decoration: none !important;
+    color: black !important;
+    font-weight: bold !important;
+    font-size: 13px !important;
+}
+
+
+/* navbar end */
 .btn_contact {
     background-color: rgb(246, 246, 137) !important;
 }
