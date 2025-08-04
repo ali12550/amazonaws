@@ -34,7 +34,7 @@ h1.heading_one{
 .border_0{
     border: unset !important;
 }
-.display_none{
+.d_none{
     display: none !important;
 }
 .bg_none{
