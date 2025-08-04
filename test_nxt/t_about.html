@@ -1,0 +1,43 @@
+<link href="https://ali12550.github.io/amazonaws/style.css
+" rel="stylesheet" type="text/css">
+%<%
+    
+
+    load("settings", "settings");
+    load('theme', 'theme');
+%>%
+<div id="page-content" class="%<% echo getThemeSetting("border_color"); %>%  %<% echo getThemeSetting("border_radius"); %>% %<% echo getThemeSetting("accent_color"); %>%">
+    <div id="page-title-bg"></div>
+    <h1 id="page-title" class="%<% echo getThemeSetting("border_radius"); %>%">About %<%=getSetting("dbVar_companyName")%>%</h1>
+    <div class="inner-content about-us-content %<% echo getThemeSetting("border_radius"); %>%">
+
+        <br /> <br />
+        <h2 class="services-title"><strong>About Us</strong></h2>
+        <h2 class="sub-title">A helpful customer service staff lead by seasoned veterans of the printing industry.</h2>
+        <a href="/contact/contact.html">
+            <button class="btn btn-success btn-large design-services-button btn_contact">Contact Us Here For Assistance</button>
+        </a>
+        <div class="about-lower-content">
+            <h3 class="services-headings">A history of high standards and quick production turnaround in the printing industry.</h3>
+            <p><strong>
+                    %<%=getSetting("dbVar_companyName")%>%</strong> is a full service online print and design company that specializes in full color offset and digital printing. Not too many print companies, if any, offer the same services. We stand behind printing and design services, we are so sure you'll be satisfied that we offer guarantees on quality, turnaround, and pricing.
+            </p>
+            <p>Having been in business for many years, we have the experience, understanding and patience to make sure your print job comes out fast and accurate. </p>
+        </div>
+    </div>
+</div>
+
+<div class="about_container">
+    <div class="about_wrapper">
+        <div>
+            
+            <h2 class="heading_two">A helpful customer service staff lead by seasoned veterans of the printing industry.</h2>
+
+
+            <p class="text_para">Having been in business for many years, we have the experience, understanding and patience to make sure your print job comes out fast and accurate. </p>
+        </div>
+        <div>
+            <img src="" alt="">
+        </div>
+    </div>
+</div>
