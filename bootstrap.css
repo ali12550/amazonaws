@@ -3414,22 +3414,11 @@ textarea.form-control-lg {
     border-radius: .2rem
 }
 
-.fade {
-    transition: opacity .15s linear
+
+
+.dropdown, .dropend, .dropstart, .dropup {
+    position: relative
 }
-
-@media (prefers-reduced-motion:reduce) {
-    .fade {
-        transition: none
-    }
-}
-
-.fade:not(.show) {
-    opacity: 0
-}
-
-
-
 
 .dropdown-toggle {
     white-space: nowrap
@@ -4041,11 +4030,7 @@ textarea.form-control-lg {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease
 }
 
-@media (prefers-reduced-motion:reduce) {
-    .accordion-button {
-        transition: none
-    }
-}
+
 
 .accordion-button:not(.collapsed) {
     color: #0c63e4;
