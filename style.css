@@ -11,7 +11,6 @@
     color: black;
 }
 h1.heading_one{
-    background-color: unset !important;
 }
 .border_0{
     border: unset !important;
@@ -22,8 +21,6 @@ h1.heading_one{
 }
 
 #page-title{
-    background-color: unset !important;
-    background: none !important;
 }
 .light-borders, div#page-content.light-borders{
     border: unset !important;
