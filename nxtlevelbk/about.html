@@ -6,7 +6,7 @@
     load("settings", "settings");
     load('theme', 'theme');
 %>%
-<div id="page-content" class="%<% echo getThemeSetting("border_color"); %>%  %<% echo getThemeSetting("border_radius"); %>% %<% echo getThemeSetting("accent_color"); %>%">
+<div id="page-content" class="d_none %<% echo getThemeSetting("border_color"); %>%  %<% echo getThemeSetting("border_radius"); %>% %<% echo getThemeSetting("accent_color"); %>%">
     <div id="page-title-bg"></div>
     <h1 id="page-title" class="%<% echo getThemeSetting("border_radius"); %>%">About %<%=getSetting("dbVar_companyName")%>%</h1>
     <div class="inner-content about-us-content %<% echo getThemeSetting("border_radius"); %>%">
