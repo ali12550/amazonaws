@@ -58,13 +58,15 @@ h1.heading_one{
     justify-content: center !important;
 }
 .about_con_left{
-    min-height: 400px !important;
+    /* min-height: 400px !important;
     background: url("https://s3.amazonaws.com/autoprint/115/cms_images/2327/h6_img1.png") !important;
     background-repeat: no-repeat !important;
     background-size: contain !important;
-    margin: auto !important;
-    max-width: 500px !important;
-    width: 700px !important;
+    margin: auto !important; */
+    max-width: 700px !important;
 
+}
+.about_con_left img{
+    width: 100%;
 }
 /* about us page style end */
