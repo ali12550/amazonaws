@@ -52,13 +52,19 @@ h1.heading_one{
 
 /* about us page style start */
 
-
+.about_wrapper{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
 .about_con_left{
     min-height: 400px !important;
     background: url("https://s3.amazonaws.com/autoprint/115/cms_images/2327/h6_img1.png") !important;
-    max-width: 500px !important;
     background-repeat: no-repeat !important;
     background-size: contain !important;
     margin: auto !important;
+    max-width: 500px !important;
+    width: 700px !important;
+
 }
 /* about us page style end */
