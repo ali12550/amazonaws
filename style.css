@@ -7,7 +7,12 @@
 .container.expanded-nav .nav-expanded {
     box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .35) !important;
     margin-top: 14px !important;
-        margin-bottom: 36px !important;
+    margin-bottom: 36px !important;
+}
+.container.expanded-nav .nav-expanded .form-control:focus
+{
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .35) !important;
+    
 }
 
 .nav-expanded ul {
