@@ -46,14 +46,20 @@
     height: 44px !important;
 }
 
-#product-calculator #calculator .form-control:focus {
+
+#product-calculator #calculator .form-control:focus
+{
     box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .35) !important;
     border: none !important;
-
+    
 }
 
 #calculator .product-options #add-to-cart {
     background: black !important;
+}
+
+#calculator .product-options  #add-to-cart-cbDesigner-calc {
+    background: #1381cd !important;
 }
 
 /* product page style end */
