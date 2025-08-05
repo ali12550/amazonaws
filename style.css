@@ -53,7 +53,7 @@
 }
 
 #calculator .product-options #add-to-cart {
-    background-color: black !important;
+    background: black !important;
 }
 
 /* product page style end */
