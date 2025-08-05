@@ -14,15 +14,7 @@
     box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .35) !important;
     
 }
-#product-calculator .product-price .form-control:focus
-{
-    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .35) !important;
-    
-}
 
-#calculator .product-options .add-to-cart{
-    background-color: black !important;
-}
 
 .nav-expanded ul {
     margin-top: 25px !important;
@@ -49,6 +41,17 @@
 }
 
 /* navbar end */
+/* product page start */
+#product-calculator .product-price .form-control:focus
+{
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .35) !important;
+    
+}
+
+#calculator .product-options .add-to-cart{
+    background-color: black !important;
+}
+/* product page style end */
 .btn_contact {
     background-color: rgb(246, 246, 137) !important;
 }
