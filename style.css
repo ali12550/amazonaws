@@ -20,6 +20,10 @@
     
 }
 
+#calculator .product-options .add-to-cart{
+    background-color: black !important;
+}
+
 .nav-expanded ul {
     margin-top: 25px !important;
 }
