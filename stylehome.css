@@ -421,10 +421,14 @@ body{
     background-size: cover;
   }
 
-  ._cta_red {
+   ._cta_red {
       /* background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%); */
       background-image: url("https://darkseagreen-moose-843228.hostingersite.com/wp-content/uploads/2023/02/h6_banner3.jpg");
       background-size: cover;
+  }
+   ._box._cta_red {
+      background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+
   }
 
   ._cta_badge {
