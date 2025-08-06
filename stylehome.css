@@ -49,6 +49,7 @@
             font-weight: 700;
             line-height: 1.1;
             margin-bottom: 20px;
+            color: white;
         }
 
         ._hero_description {
@@ -56,11 +57,12 @@
             opacity: 0.9;
             margin-bottom: 30px;
             line-height: 1.6;
+            color: white;
         }
 
         ._shop_button {
             background: var(--accent-color);
-            color: var(--secondary-color);
+            color: black;
             padding: 14px 28px;
             border: none;
             border-radius: 25px;
