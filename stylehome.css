@@ -216,6 +216,9 @@ body{
       justify-content: center;
       position: relative;
   }
+  ._new_products_section ._product_image {
+      height: 217px;
+  }
 
   ._product_image img {
       width: 100%;
