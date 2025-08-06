@@ -3,7 +3,9 @@
     width: 100% !important;
 }
 
-
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
 .container.expanded-nav .nav-expanded {
     box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .35) !important;
     margin-top: 14px !important;

@@ -11,6 +11,9 @@ body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
 }
   ._hero_section {
       background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
@@ -88,6 +91,7 @@ body{
       display: flex;
       flex-direction: column;
       gap: 20px;
+      align-items: center;
   }
 
   ._business_card {
@@ -502,6 +506,8 @@ body{
           gap: 40px;
           text-align: center;
           justify-content: center;
+          padding-left: 0px;
+          padding-right: 0px;
       }
 
       ._hero_title {
