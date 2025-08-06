@@ -543,15 +543,17 @@ body{
 }
 
 .help-card h2 {
-  font-size: 1.8rem;
+  font-size: 26px !important;
   font-weight: 700;
   margin-bottom: 15px;
+  color: white !important;
 }
 
 .help-card p {
-  font-size: 1rem;
+  font-size: 17px !important;
   line-height: 1.5;
   margin-bottom: 20px;
+  color: white !important;
 }
 
 .help-button {
