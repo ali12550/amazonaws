@@ -384,12 +384,15 @@
 
   ._cta_card {
       border-radius: 16px;
-      padding: 40px;
+      padding: 5px;
       color: var(--accent-color);
       position: relative;
       overflow: hidden;
   }
-
+._cta_card img{
+    width: 100%;
+    border-radius: 16px;
+}
   ._cta_blue {
       background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
   }
