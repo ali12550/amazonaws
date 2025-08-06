@@ -192,7 +192,7 @@ body{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       gap: 20px;
-      margin-bottom: 60px;
+      margin-bottom: 25px;
   }
 
   ._product_card {
@@ -432,10 +432,11 @@ body{
   }
 
   ._cta_badge {
-      background: rgba(255, 255, 255, 0.2);
+      background: #e3e3e3;
+      color: black;
       padding: 6px 12px;
       border-radius: 12px;
-      font-size: 10px;
+      font-size: 12px;
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 1px;
@@ -451,9 +452,9 @@ body{
   }
 
   ._explore_button {
-      background: rgba(255, 255, 255, 0.2);
+      background: rgb(255, 255, 255);
       border: 2px solid rgba(255, 255, 255, 0.3);
-      color: var(--accent-color);
+      color: black;
       padding: 12px 24px;
       border-radius: 20px;
       font-weight: 600;
