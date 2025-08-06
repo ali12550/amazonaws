@@ -440,9 +440,10 @@ body{
   }
 
   ._cta_title {
-      font-size: 24px;
+      font-size: 26px;
       font-weight: 700;
       margin-bottom: 20px;
+      color: white !important;
   }
 
   ._explore_button {
