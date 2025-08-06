@@ -350,6 +350,9 @@ h1.heading_one {}
 
 .btn-custom {
     background: var(--accent-color);
+    background-color: white !important;
+    color: black !important;
+    padding: 9px 24px;
     border: none;
     padding: 12px 30px;
     border-radius: 50px;

@@ -393,7 +393,7 @@ body{
 
   ._cta_card {
       border-radius: 16px;
-      padding: 40px;
+      padding: 60px 40px;
       color: var(--accent-color);
       position: relative;
       overflow: hidden;
@@ -416,11 +416,17 @@ body{
     border-radius: 16px;
 }
   ._cta_blue {
-      background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+      /* background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%); */
+      background-image: url("https://darkseagreen-moose-843228.hostingersite.com/wp-content/uploads/2023/02/h6_banner2.jpg");
+      background-position: center;
+    background-size: cover;
   }
 
   ._cta_red {
-      background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+      /* background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%); */
+      background-image: url("https://darkseagreen-moose-843228.hostingersite.com/wp-content/uploads/2023/02/h6_banner3.jpg");
+      background-position: center;
+      background-size: cover;
   }
 
   ._cta_badge {
