@@ -500,6 +500,63 @@ body{
       display: inline-block;
   }
 
+
+  .help-section {
+  background-image: url(https://darkseagreen-moose-843228.hostingersite.com/wp-content/uploads/2023/02/h6_banner3.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 60px 20px;
+    position: relative;
+    min-height: 400px;
+}
+
+.help-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 300px;
+}
+
+.help-card {
+  /* background-color: #2e3b59; */
+        background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 420px;
+  color: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.help-card h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.help-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.help-button {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: white;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.help-button:hover {
+  background-color: #f2f2f2;
+}
+
+
   @media (max-width: 768px) {
       ._hero_content {
           grid-template-columns: 1fr;
