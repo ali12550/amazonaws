@@ -168,11 +168,12 @@ h1.heading_one {}
 
 :root {
     --primary-color: #000000;
-    --secondary-color: #1381cd;
-    /* --secondary-color: #3498db; */
+    --secondary-color: #1B3A6F;
+    /* old cololr --secondary-color: #1381cd; */
     --accent-color: #ffffff;
     --text-color: #000000;
     --light-gray: #E1E2E1;
+    /* old color --light-gray: #edeff2; */
     --medium-gray: #e9ecef;
 }
 
