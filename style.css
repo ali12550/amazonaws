@@ -167,7 +167,8 @@ h1.heading_one {}
 
 
 :root {
-    --primary-color: #000000;
+    --primary-color: #0D1B2A;
+    /* old color  --primary-color: #000000; */
     --secondary-color: #1B3A6F;
     /* old cololr --secondary-color: #1381cd; */
     --accent-color: #ffffff;
