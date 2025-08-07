@@ -7,13 +7,18 @@ body{
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
 }
 .container.expanded-nav .nav-expanded {
-    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .35) !important;
+    box-shadow: 0 2px 3px 1px #1B3A6F !important;
     margin-top: 14px !important;
     margin-bottom: 36px !important;
 }
 
 .container.expanded-nav .nav-expanded .form-control:focus {
-    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .35) !important;
+    box-shadow: 0 1px 5px 0 #0D1B2A !important;
+
+}
+.container.expanded-nav .nav-expanded .form-control {
+        height: 42px;
+    font-size: 16px;
 
 }
 
