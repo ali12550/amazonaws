@@ -13,7 +13,7 @@ body{
 }
 
 .container.expanded-nav .nav-expanded .form-control:focus {
-    box-shadow: 0 1px 5px 0 #0D1B2A !important;
+    /* box-shadow: 0 1px 5px 0 #0D1B2A !important; */
 
 }
 .container.expanded-nav .nav-expanded .form-control {
@@ -95,7 +95,7 @@ body{
 }
 
 .text_para {
-    color: black !important;
+    color: rgb(255, 255, 255) !important;
     font-size: 17px !important;
     text-align: center !important;
     line-height: 1.4 !important;
@@ -357,7 +357,6 @@ h1.heading_one {}
 }
 
 .btn-custom {
-    background: var(--accent-color);
     background-color: white !important;
     color: black !important;
     padding: 9px 24px;
