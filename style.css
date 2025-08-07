@@ -95,7 +95,7 @@ body{
 }
 
 .text_para {
-    color: rgb(255, 255, 255) !important;
+    color: var(--text-color) !important;
     font-size: 17px !important;
     text-align: center !important;
     line-height: 1.4 !important;
@@ -356,6 +356,9 @@ h1.heading_one {}
     text-align: center;
 }
 
+.cta-section p{
+    color: white !important;
+}
 .btn-custom {
     background-color: white !important;
     color: black !important;
