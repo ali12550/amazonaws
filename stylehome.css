@@ -199,7 +199,8 @@ body{
       background: var(--accent-color);
       border-radius: 16px;
       overflow: hidden;
-      box-shadow: 0 4px 5px #1381cd38;
+      box-shadow: 0 4px 5px #1B3A6F;
+      /* box-shadow: 0 4px 5px #1381cd38; */
       transition: transform 0.3s ease;
   }
 

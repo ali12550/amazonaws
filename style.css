@@ -65,7 +65,7 @@ body{
 }
 
 #calculator .product-options #add-to-cart-cbDesigner-calc {
-    background: #1381cd !important;
+    background: #1B3A6F !important;
 }
 
 /* product page style end */
@@ -215,7 +215,8 @@ h1.heading_one {}
     background: white;
     border-radius: 15px;
     padding: 2rem;
-    box-shadow: 0 2px 3px 1px #1381cd38;
+    box-shadow: 0 2px 3px 1px #1B3A6F;
+    /* box-shadow: 0 2px 3px 1px #1381cd38; */
     transition: all 0.3s ease;
     border: none;
     height: 100%;
