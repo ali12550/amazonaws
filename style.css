@@ -471,6 +471,13 @@ h1.heading_one {}
     .timeline-item:nth-child(even) {
         left: 0%;
     }
+    .page_title {
+        font-size: 25px !important;
+    }
+    .service_card h3 {
+        font-size: 20px !important;
+        text-align: center !important;
+    }
 }
 
 /* cloud style end */
