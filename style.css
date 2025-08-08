@@ -376,6 +376,15 @@ h1.heading_one {}
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+
+
+/* design services srart */
+
+#page-content{
+    display: none !important;
+}
+/* design services end */
+
 @media (max-width: 768px) {
     .timeline::after {
         left: 31px;
