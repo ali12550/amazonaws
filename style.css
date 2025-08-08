@@ -472,8 +472,9 @@ h1.heading_one {}
     margin-bottom: 5px;
     color: var(--primary-color);
 }
-._services_title  strong{
-   font-weight: bold !important;
+
+._services_title strong {
+    font-weight: bold !important;
 }
 
 ._sub_title {
@@ -487,8 +488,8 @@ h1.heading_one {}
     border: none;
     cursor: pointer;
     transition: 0.3s;
-    display: inline-block;
     padding: 12px 20px;
+    margin-bottom: 20px;
     background-color: var(--secondary-color);
     color: white;
     font-size: 16px;
