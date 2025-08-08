@@ -480,7 +480,7 @@ h1.heading_one {}
 ._sub_title {
     text-align: center;
     font-size: 18px;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     margin-bottom: 20px;
 }
 
