@@ -502,25 +502,7 @@ h1.heading_one {}
 }
 
 /* Service Box */
-._service_box {
-    background: linear-gradient(135deg, var(--primary-color) 26%, var(--secondary-color) 78%);
-    color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 3px 1px #1B3A6F;
-    transition: 0.3s;
-}
 
-._service_box:hover {
-    transform: translateY(-5px);
-}
-
-._service_box p {
-    color: var(--text-color);
-    margin: 0 auto 40px;
-    font-size: 16px;
-    text-align: center;
-}
 
 /* print services end */
 
