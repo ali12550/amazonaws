@@ -416,6 +416,7 @@ h1.heading_one {}
     border-radius: 10px;
     padding: 20px;
     transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center !important;
 }
 
 .service_card:hover {
