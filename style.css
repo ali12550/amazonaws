@@ -458,7 +458,64 @@ h1.heading_one {}
 
 
 /* print services start */
+._section_heading {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+}
 
+/* Subtitle & Button */
+._services_title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+
+._sub_title {
+    text-align: center;
+    font-size: 18px;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+._services_button {
+    display: block;
+    margin: 0 auto 40px auto;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+._services_button:hover {
+    transform: scale(1.05);
+}
+
+/* Service Boxes Container */
+._services_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Service Box */
+._service_box {
+    background: linear-gradient(135deg, var(--primary-color) 26%, var(--secondary-color) 78%);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 3px 1px #1B3A6F;
+    transition: 0.3s;
+}
+._service_box:hover {
+    transform: translateY(-5px);
+}
+
+._service_box p {
+    font-size: 15px;
+    line-height: 1.5;
+}
 
 /* print services end */
 
