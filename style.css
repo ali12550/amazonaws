@@ -424,17 +424,18 @@ h1.heading_one {}
 }
 
 .service_card h3 {
-    color: var(--primary-color);
-    margin-bottom: 10px;
-    font-size: 24px !important;
-    font-weight: bold !important;
-    line-height: 1.2 !important;
+    font-size: 32px !important;
+    font-weight: 700 !important;
+    margin-bottom: 20px !important;
+    color: var(--primary-color) !important;
 }
 
 .service_card p {
     color: var(--text-color);
-    margin-bottom: 20px;
-    font-size: 17px !important;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    font-size: 16px;
+    text-align: center;
 }
 
 .service_card button {

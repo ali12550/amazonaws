@@ -266,6 +266,7 @@ body{
       font-size: 32px;
       font-weight: 700;
       margin-bottom: 20px;
+      color: var(--primary-color);
   }
 
   ._section_title ._purple_text {
@@ -273,11 +274,11 @@ body{
   }
 
   ._section_description {
-      color: var(--text-color);
-      opacity: 0.7;
-      max-width: 600px;
-      margin: 0 auto 40px;
-      line-height: 1.6;
+  color: var(--text-color);
+    max-width: 600px;
+    margin: 0 auto 40px;
+    font-size: 16px;
+    text-align: center;
   }
 
   ._stats_grid {
