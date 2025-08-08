@@ -461,7 +461,8 @@ h1.heading_one {}
 ._section_heading {
     text-align: center;
     color: var(--primary-color);
-    margin-bottom: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 /* Subtitle & Button */
@@ -488,6 +489,7 @@ h1.heading_one {}
     cursor: pointer;
     transition: 0.3s;
 }
+
 ._services_button:hover {
     transform: scale(1.05);
 }
@@ -508,13 +510,16 @@ h1.heading_one {}
     box-shadow: 0 2px 3px 1px #1B3A6F;
     transition: 0.3s;
 }
+
 ._service_box:hover {
     transform: translateY(-5px);
 }
 
 ._service_box p {
-    font-size: 15px;
-    line-height: 1.5;
+    color: var(--text-color);
+    margin: 0 auto 40px;
+    font-size: 16px;
+    text-align: center;
 }
 
 /* print services end */
@@ -538,6 +543,7 @@ h1.heading_one {}
         left: 0%;
     }
 
+    ._section_heading,
     .page_title {
         font-size: 25px !important;
     }
