@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Services</title>
+    <style>
+        .design_services {
+            padding: 50px 20px;
+            background: var(--accent-color);
+        }
+
+        .page_title {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        ._intro {
+            font-size: 1.1rem;
+            color: var(--primary-color);
+            max-width: 700px;
+            margin: auto;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .services_grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .service_card {
+            background: white;
+            border: 3px solid var(--secondary-color);
+            border-radius: 10px;
+            padding: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .service_card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .service_card h3 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+
+        .service_card p {
+            color: var(--text-color);
+            margin-bottom: 20px;
+        }
+
+        .service_card button {
+            background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+
+            display: inline-block;
+            padding: 12px 20px;
+            background-color: white;
+            color: white !important;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="design_services">
+        <div class="container">
+            <h1 class="page_title">Professional Design Services</h1>
+            <p class="_intro">
+                From logos to complete brand identities, our team delivers premium design solutions tailored to your
+                needs.
+            </p>
+
+            <div class="services_grid">
+                <div class="service_card">
+                    <h3>Logo Design</h3>
+                    <p>Custom, creative, and memorable logos that define your brand identity.</p>
+                    <button>Learn More</button>
+                </div>
+
+                <div class="service_card">
+                    <h3>Business Card Design</h3>
+                    <p>Professional business cards that leave a lasting impression on your clients.</p>
+                    <button>Learn More</button>
+                </div>
+
+                <div class="service_card">
+                    <h3>Flyer & Brochure Design</h3>
+                    <p>Beautiful marketing materials to showcase your services or products effectively.</p>
+                    <button>Learn More</button>
+                </div>
+
+                <div class="service_card">
+                    <h3>Social Media Graphics</h3>
+                    <p>Eye-catching visuals to boost your brand presence on social media platforms.</p>
+                    <button>Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
