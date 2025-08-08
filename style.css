@@ -393,6 +393,7 @@ h1.heading_one {}
     color: var(--primary-color);
     margin-bottom: 15px;
     text-align: center;
+    font-weight: bold;
 }
 
 ._intro {
