@@ -474,7 +474,7 @@ h1.heading_one {}
 }
 
 ._services_title strong {
-    font-weight: bold !important;
+    font-weight: 500 !important;
 }
 
 ._sub_title {
@@ -483,14 +483,17 @@ h1.heading_one {}
     color: var(--primary-color);
     margin-bottom: 20px;
 }
-
+._page_content a{
+display: flex;
+justify-content: center;
+}
 ._services_button {
     border: none;
     cursor: pointer;
     transition: 0.3s;
     padding: 12px 20px;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-top: 40px;
     background-color: var(--secondary-color);
     color: white;
     font-size: 16px;
