@@ -1,48 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Printing Services</title>
-   <link rel="stylesheet" href="/style.css">
-</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Printing Services</title>
+<style>
+:root {
+    --primary-color: #0D1B2A;
+    --secondary-color: #1B3A6F;
+    --accent-color: #e3e3e3;
+    --text-color: #000000;
+    --light-gray: #E1E2E1;
+    --medium-gray: #e9ecef;
+}
 
+
+._section_heading {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+}
+
+/* Subtitle & Button */
+._services_title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+
+._sub_title {
+    text-align: center;
+    font-size: 18px;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+._services_button {
+    display: block;
+    margin: 0 auto 40px auto;
+    padding: 12px 25px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(135deg, var(--primary-color) 26%, var(--secondary-color) 78%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+._services_button:hover {
+    transform: scale(1.05);
+}
+
+/* Service Boxes Container */
+._services_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Service Box */
+._service_box {
+    background: linear-gradient(135deg, var(--primary-color) 26%, var(--secondary-color) 78%);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 3px 1px #1B3A6F;
+    transition: 0.3s;
+}
+._service_box:hover {
+    transform: translateY(-5px);
+}
+
+/* Paragraphs inside boxes */
+._service_box p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+</style>
+</head>
 <body>
 
-    <div id="page-content_" class="light-borders_ rounded-small_ light-accents_">
-        <h1 id="page-title_print_service" class="rounded-small_">Printing Services</h1>
-
-        <div class="inner-content_print_service printing-services-content_ rounded-small_">
-            <h2 class="services-title_"><strong>Fast &amp; Friendly Service</strong></h2>
-            <h2 class="sub-title_">Buying printing &amp; graphic design online has never been this easy!</h2>
-
-            <a class="product-menu_" href="#">
-                <button class="services-button_">Get Started With Your Project</button>
-            </a>
-
-            <div class="services-lower-content_">
-                <h3 class="services-headings_">Quality printing services &amp; fast turnaround that you can depend on
-                </h3>
-                <p><strong>Nxt Level Company LLC</strong>, is the best source for printing flyers, business cards,
-                    postcards, direct mail, posters and just about any printing product you can imagine!</p>
-                <p>We offer a multitude of printing options for our customers. From a single-color letterhead to a fully
-                    customized magazine, our workflow process has been engineered for unrivaled production times without
-                    sacrificing quality.</p>
-                <p>Our printing process utilizes the most advanced software on the market, in conjunction with our
-                    unique pre-press methods allow us to offer same day turnaround on a variety of printing products.
-                    The patented CCI quality system allows near perfect printing with little to no color variation and
-                    sharper cleaner images. A Closed Loop Color Scanning Spectro Densitometer further enhances the
-                    quality of our print production. In addition, our presses are linked to our prepress department for
-                    consistent color management from disk drive to ink and paper.</p>
-                <p>In the pressroom we feature the world's most automated digital and offset printing presses that have
-                    a wide range of press formats, including several 20", 29" and 40" machines. These sizes allow us to
-                    produce your projects in the most economically efficient manner possible. Also included in our
-                    pressroom is diecutting, bindery, finishing and a mail room.</p>
-            </div>
+<div class="_page_content">
+    <h1 class="_section_heading">Printing Services</h1>
+    
+    <h2 class="_services_title"><strong>Fast &amp; Friendly Service</strong></h2>
+    <h2 class="_sub_title">Buying printing &amp; graphic design online has never been this easy!</h2>
+    
+    <a href="#"><button class="_services_button">Get Started With Your Project</button></a>
+    
+    <div class="_services_grid">
+        <div class="_service_box">
+            <h3>Quality Printing</h3>
+            <p><strong>Nxt Level Company LLC</strong> is the best source for printing flyers, business cards, postcards, direct mail, posters and just about any printing product you can imagine!</p>
+        </div>
+        <div class="_service_box">
+            <h3>Flexible Options</h3>
+            <p>We offer a multitude of printing options for our customers. From a single-color letterhead to a fully customized magazine, we ensure quality without delays.</p>
+        </div>
+        <div class="_service_box">
+            <h3>Advanced Technology</h3>
+            <p>Our process uses the most advanced software and unique pre-press methods, allowing same-day turnaround on many printing products.</p>
+        </div>
+        <div class="_service_box">
+            <h3>Consistent Color</h3>
+            <p>The patented CCI quality system ensures near-perfect printing with little to no color variation and sharper, cleaner images.</p>
+        </div>
+        <div class="_service_box">
+            <h3>Pressroom Excellence</h3>
+            <p>We feature the world's most automated digital and offset presses with a variety of press formats for cost-efficient production.</p>
+        </div>
+        <div class="_service_box">
+            <h3>Full Finishing</h3>
+            <p>From die-cutting to binding, finishing, and mailing, our in-house capabilities mean your project is handled with care from start to finish.</p>
         </div>
     </div>
+</div>
 
 </body>
-
 </html>
