@@ -538,8 +538,10 @@ h1.heading_one {}
         }
 
         .header_ h1 {
-            margin: 0;
-            font-size: 28px;
+           font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--primary-color);
         }
 
         .header_ p {
@@ -577,8 +579,10 @@ h1.heading_one {}
         }
 
         .content_block_ h2 {
-            /* color: var(--primary-color);
-            margin-top: 0; */
+          font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--primary-color);
         }
 
         .content_block_ h3 {
