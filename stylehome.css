@@ -258,7 +258,7 @@
       text-align: center;
       margin-bottom: 60px;
   }
-
+._new_products_title,
   ._section_title {
       font-size: 32px;
       font-weight: 700;
@@ -307,9 +307,6 @@
   }
 
   ._new_products_title {
-      font-size: 28px;
-      font-weight: 700;
-      text-align: center;
       margin-bottom: 10px;
   }
 
@@ -576,6 +573,12 @@
 
 
   @media (max-width: 768px) {
+
+
+    ._new_products_title,
+  ._section_title {
+      font-size: 25px;
+  }
       ._hero_content {
           grid-template-columns: 1fr;
           gap: 40px;
