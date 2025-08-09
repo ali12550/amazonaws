@@ -233,6 +233,17 @@
   }
 
 
+  ._product_image.painted_edge {
+      height: 300px;
+      /* background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%); */
+
+      background-image: url(https://s3.amazonaws.com/autoprint/115/images/branding/2327/categories/cat110.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+          background-position: center;
+  }
+
+
 
 
   ._product_label {
