@@ -483,10 +483,7 @@ h1.heading_one {}
     color: var(--primary-color);
     margin-bottom: 20px;
 }
-._page_content a{
-display: flex;
-justify-content: center;
-}
+
 ._services_button {
     border: none;
     cursor: pointer;
