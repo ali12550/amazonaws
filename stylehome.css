@@ -7,9 +7,9 @@
       --medium-gray: #e9ecef;
   }
 
- body {
-    font-family: arial,sans-serif !important;
-}
+  body {
+      font-family: arial, sans-serif !important;
+  }
 
   ._hero_section {
       background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
@@ -184,6 +184,11 @@
       margin-bottom: 60px;
   }
 
+  .extensive_third {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr !important;
+  }
+
   ._products_grid.extensive_sec {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -240,7 +245,7 @@
       background-image: url(https://s3.amazonaws.com/autoprint/115/images/branding/2327/categories/cat110.png);
       background-repeat: no-repeat;
       background-size: cover;
-          background-position: center;
+      background-position: center;
   }
 
 
@@ -269,12 +274,14 @@
       text-align: center;
       margin-bottom: 60px;
   }
-._new_products_title,
+
+  ._new_products_title,
   ._section_title {
       font-size: 32px;
       font-weight: 700;
       margin-bottom: 20px;
       color: var(--primary-color);
+      text-align: center !important;
   }
 
   ._section_title ._purple_text {
@@ -336,7 +343,7 @@
       /* background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%); */
       border-radius: 16px;
       padding: 5px;
-      
+
   }
 
   .super_card_img {
@@ -582,10 +589,11 @@
   @media (max-width: 768px) {
 
 
-    ._new_products_title,
-  ._section_title {
-      font-size: 25px;
-  }
+      ._new_products_title,
+      ._section_title {
+          font-size: 25px;
+      }
+
       ._hero_content {
           grid-template-columns: 1fr;
           gap: 40px;
@@ -617,6 +625,7 @@
           gap: 15px;
       }
 
+      .extensive_third,
       ._products_grid.extensive_sec {
           grid-template-columns: 1fr 1fr !important;
       }
