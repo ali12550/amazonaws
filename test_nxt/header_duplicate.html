@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vistaprint Header Clone</title>
+    <style>
+        :root {
+            --primary-color: #0D1B2A;
+            --secondary-color: #1B3A6F;
+            --accent-color: #ffffff;
+            --text-color: #000000;
+            --light-gray: #E1E2E1;
+            --medium-gray: #e9ecef;
+        }
+
+
+
+        body {
+            font-family: arial, sans-serif;
+        }
+
+        ._header {
+            background-color: var(--accent-color);
+            border-bottom: 1px solid var(--light-gray);
+            padding: 0;
+        }
+
+        ._header_container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 20px;
+        }
+
+        ._logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        ._logo_icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 8px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        ._logo_icon::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(45deg);
+            width: 20px;
+            height: 20px;
+            border: 3px solid var(--accent-color);
+            border-bottom: none;
+            border-right: none;
+        }
+
+        ._logo_text {
+            font-size: 24px;
+            font-weight: 400;
+            color: var(--text-color);
+        }
+
+        ._logo_text_bold {
+            font-weight: 700;
+        }
+
+        ._header_actions {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        ._header_icon {
+            width: 44px;
+            height: 44px;
+            color: var(--text-color);
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        ._header_icon:hover {
+            background-color: var(--light-gray);
+        }
+
+        ._nav_container {
+            background-color: var(--accent-color);
+            border-bottom: 1px solid var(--light-gray);
+            position: relative;
+        }
+
+        ._nav_content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 20px;
+            position: relative;
+        }
+
+        ._nav_toggle {
+            display: none;
+            background: none;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            color: var(--text-color);
+            font-size: 20px;
+        }
+
+        ._nav_toggle:hover {
+            background-color: var(--light-gray);
+            border-radius: 4px;
+        }
+
+        ._nav_menu {
+            display: flex;
+            align-items: center;
+            gap: 0;
+            justify-content: center;
+        }
+
+        ._nav_item {
+            position: relative;
+        }
+
+        ._nav_link {
+            display: block;
+            padding: 16px 20px;
+            color: var(--text-color);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border-bottom: 3px solid transparent;
+        }
+
+        ._nav_link:hover {
+            background-color: var(--light-gray);
+            color: var(--secondary-color);
+        }
+
+        ._nav_link._deals {
+            color: #e74c3c;
+            font-weight: 600;
+        }
+
+        ._nav_link._deals:hover {
+            background-color: rgba(231, 76, 60, 0.1);
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 1024px) {
+            ._nav_toggle {
+                display: block;
+            }
+
+            ._header_container {
+                display: grid;
+                grid-template-columns: 21fr 1fr 1fr;
+                align-items: center;
+                padding: 10px 15px;
+            }
+
+            ._logo {
+                justify-self: start;
+                margin-right: 0;
+            }
+
+            ._header_actions {
+                justify-self: center;
+                gap: 12px;
+            }
+
+            ._nav_toggle {
+                justify-self: end;
+                position: static;
+                transform: none;
+                right: auto;
+                top: auto;
+            }
+
+            ._nav_menu {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background-color: var(--accent-color);
+                border-top: 1px solid var(--light-gray);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                flex-direction: column;
+                align-items: stretch;
+                z-index: 1000;
+            }
+
+            ._nav_menu.active {
+                display: flex;
+            }
+
+            ._nav_link {
+                padding: 16px 20px;
+                border-bottom: 1px solid var(--light-gray);
+                text-align: left;
+            }
+
+            ._nav_item:last-child ._nav_link {
+                border-bottom: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            ._header_container {
+                padding: 10px 15px;
+            }
+
+            ._nav_content {
+                padding: 0 15px;
+            }
+
+            ._logo_text {
+                font-size: 20px;
+            }
+
+            ._header_icon {
+                width: 40px;
+                height: 40px;
+                padding: 8px;
+            }
+
+            ._header_actions {
+                gap: 10px;
+            }
+
+            ._nav_link {
+                padding: 14px 20px;
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            ._header_container {
+                padding: 8px 10px;
+            }
+
+            ._nav_content {
+                padding: 0 10px;
+            }
+
+            ._logo_text {
+                font-size: 18px;
+            }
+
+            ._header_icon {
+                width: 36px;
+                height: 36px;
+                padding: 6px;
+            }
+
+            ._header_actions {
+                gap: 8px;
+            }
+
+            ._nav_link {
+                padding: 12px 15px;
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="_header">
+        <div class="_header_container">
+            <!-- Logo -->
+            <a href="#" class="_logo">
+                <img src="https://s3.amazonaws.com/autoprint/115/images/branding/2327/logo.png" alt="" srcset="">
+            </a>
+
+            <!-- Header Actions -->
+            <div class="_header_actions">
+
+
+                <!-- Favorites Icon -->
+                <svg class="_header_icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path
+                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                </svg>
+
+                <!-- Account Icon -->
+                <a href="https://store.nxtlevelcompany.com/account/login.html">
+                    <svg class="_header_icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                        <circle cx="12" cy="7" r="4" />
+                    </svg>
+                </a>
+
+                <!-- Shopping Cart Icon -->
+                <svg class="_header_icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="9" cy="21" r="1" />
+                    <circle cx="20" cy="21" r="1" />
+                    <path d="m1 1 4 4 2.68 13.39a1 1 0 0 0 .99.61H19" />
+                </svg>
+            </div>
+
+            <!-- Toggle Button (shown only on mobile/tablet) -->
+            <button class="_nav_toggle" onclick="toggleNav()">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav class="_nav_container">
+        <div class="_nav_content">
+            <div class="_nav_menu" id="navMenu">
+                <div class="_nav_item">
+                    <a href="#" class="_nav_link _deals">Deals</a>
+                </div>
+                <div class="_nav_item">
+                    <a href="#" class="_nav_link">Business Cards</a>
+                </div>
+                <div class="_nav_item">
+                    <a href="#" class="_nav_link">Postcards & Print Advertising</a>
+                </div>
+                <div class="_nav_item">
+                    <a href="#" class="_nav_link">Signs, Banners & Posters</a>
+                </div>
+                <div class="_nav_item">
+                    <a href="#" class="_nav_link">Stickers & Labels</a>
+                </div>
+
+                <div class="_nav_item">
+                    <a href="#" class="_nav_link">Packaging</a>
+                </div>
+
+                <div class="_nav_item">
+                    <a href="#" class="_nav_link">Logo, Websites & Social</a>
+                </div>
+                <div class="_nav_item">
+                    <a href="#" class="_nav_link">Design Services</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <script>
+        function toggleNav() {
+            const navMenu = document.getElementById('navMenu');
+            navMenu.classList.toggle('active');
+        }
+
+        // Close menu when clicking on a link (mobile)
+        document.querySelectorAll('._nav_link').forEach(link => {
+            link.addEventListener('click', () => {
+                if (window.innerWidth <= 1024) {
+                    document.getElementById('navMenu').classList.remove('active');
+                }
+            });
+        });
+
+        // Close menu when clicking outside (mobile)
+        document.addEventListener('click', (e) => {
+            if (window.innerWidth <= 1024) {
+                const navContainer = document.querySelector('._nav_container');
+                const navToggle = document.querySelector('._nav_toggle');
+                if (!navContainer.contains(e.target) && !navToggle.contains(e.target)) {
+                    document.getElementById('navMenu').classList.remove('active');
+                }
+            }
+        });
+
+        // Handle window resize
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 1024) {
+                document.getElementById('navMenu').classList.remove('active');
+            }
+        });
+    </script>
+</body>
+
+</html>
