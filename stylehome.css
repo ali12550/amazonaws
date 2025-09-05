@@ -259,12 +259,12 @@
       position: absolute;
       bottom: 15px;
       left: 15px;
-      background: white;
+      background: var(--secondary-color);
       padding: 8px 16px;
       border-radius: 20px;
       font-size: 15px;
       font-weight: 600;
-      color: var(--text-color);
+      color: white;
   }
 
   ._product_label a {
