@@ -1,0 +1,141 @@
+/* Header Top Start */
+.header-top-group  #phone-number  .glyphicon,
+.header-top-group #phone-number a{
+    color: #0D1B2A !important;
+    font-size: 17px !important;
+}
+.header-top-group{
+display: flex !important;
+align-items: center !important;
+}
+
+ 
+
+
+/* navbar */
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+background: #142c4f !important;
+    color: white !important;
+}
+.navbar.navbar-default.main-menu{
+background: none !important;
+    border-bottom: 1px solid #e1e2e1 !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000000 !important;
+    font-size: 17px !important;
+    font-family: Arial, sans-serif !important;
+}
+.navbar.navbar-static-top, #compact-header, #compact-header .navbar-collapse, .dropdown-menu, ul.dropdown-menu {
+    background-color: rgb(255 255 255) !important;
+}
+
+.dropdown-menu>li>a{
+color: black !important;
+}
+
+
+
+
+.container.expanded-nav .nav-expanded{
+box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .35) !important;
+margin-top: 14px !important;
+    margin-bottom: 36px !important;
+}
+
+.container.expanded-nav .nav-expanded .form-control:focus
+{
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .35) !important;
+    
+}
+
+
+#multiple-datasets {
+    width: 100% !important;
+}
+
+.nav-expanded ul {
+    margin-top: 25px !important;
+}
+
+.nav-expanded li {
+    margin-bottom: 12px !important;
+}
+
+.nav-expanded a {
+    text-decoration: none !important;
+    color: black !important;
+    font-weight: bold !important;
+    font-size: 13px !important;
+}
+.category-group-item .group-title{
+    font-size: 17px !important;
+}
+.nav-expanded .category-group-item{
+    padding-left:7px  !important;
+    padding-right:7px !important ;
+}
+
+/* navbar end */
+
+
+
+
+.light-borders,div#page-content.light-borders{
+    border: none !important;
+}
+h1#page-title{
+ 
+    background: none !important;
+    border: none !important;
+color: #1B3A6F !important;
+}
+
+
+
+/* product page start*/
+#product-calculator #calculator .form-control {
+    height: 44px !important;
+}
+
+/* footer*/
+
+
+#footer-wrapper, .footer-wrapper, #footer {
+    background: linear-gradient(135deg, #0D1B2A 0%, #1B3A6F 100%) !important;
+}
+
+#footer a{
+    font-size: 15px !important;
+    font-family: Arial !important;
+
+}
+
+.footer-heading{
+font-family: Arial !important;
+font-size:17px !important;
+}
+
+#product-calculator #calculator .form-control:focus
+{
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .35) !important;
+    border: none !important;
+    
+}
+
+#calculator .product-options #add-to-cart {
+    background: black !important;
+border:none !important;
+}
+
+#calculator .product-options #add-to-cart:hover {
+    color:white !important;
+}
+
+
+#calculator .product-options  #add-to-cart-cbDesigner-calc {
+    background: #1381cd !important;
+}
+/* product page end*/
