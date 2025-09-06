@@ -5,6 +5,8 @@
 
 body {
     font-family: Arial, sans-serif !important;
+    margin: 0;
+            padding: 0;
 }
 
 .container.expanded-nav .nav-expanded {
@@ -517,11 +519,6 @@ h1.heading_one {}
 /* print services end */
 
 
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
 
         .section_wrapper_ {
             margin: 40px auto;
