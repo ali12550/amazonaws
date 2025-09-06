@@ -10,13 +10,15 @@
   body {
       font-family: arial, sans-serif !important;
   }
-/* old slider  home page display none */
-#home-slider{
-    display: none !important;
-}
-.light-borders,div#page-content.light-borders{
-    border: none !important;
-}
+
+  /* old slider  home page display none */
+  #home-slider {
+      display: none !important;
+  }
+
+  .light-borders, div#page-content.light-borders {
+      border: none !important;
+  }
 
 
   ._hero_section {
@@ -511,16 +513,23 @@
       margin-bottom: 20px;
   }
 
-  ._social_links {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-  }
 
   ._social_link {
       color: var(--secondary-color);
       text-decoration: none;
       font-weight: 600;
+      margin: 0px 5px 0px 5px;
+      width: 30px;
+      height: 30px;
+      display: inline-block;
+  }
+
+  ._social_link.facebook {
+      background: url(https://autoprint-cdn.s3.amazonaws.com/themes/rewind-responsive/images/social-icons/fb.png) no-repeat;
+  }
+
+  ._social_link.instagram {
+      background: url(https://autoprint-cdn.s3.amazonaws.com/themes/rewind-responsive/images/social-icons/instagram.png) no-repeat;
   }
 
   ._news_badge {
