@@ -14,6 +14,11 @@
 #home-slider{
     display: none !important;
 }
+.light-borders, div#page-content.light-borders{
+    border: none !important;
+}
+
+
   ._hero_section {
       background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
       min-height: 400px;
