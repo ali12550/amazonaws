@@ -231,7 +231,7 @@
   }
 
   ._new_products_section ._product_image {
-      height: 217px;
+      height: 235px;
   }
 
   ._product_image img {
@@ -347,6 +347,7 @@
   ._new_products_grid {
       display: grid;
       grid-template-columns: 1fr 2fr;
+      align-items: center;
       gap: 20px;
   }
 
