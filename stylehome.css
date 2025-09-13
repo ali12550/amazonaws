@@ -420,7 +420,7 @@
 
   ._cta_card {
       border-radius: 16px;
-      padding: 60px 40px;
+      padding: 20px 3px;
       color: var(--accent-color);
       position: relative;
       overflow: hidden;
@@ -642,7 +642,9 @@
       ._cta_section {
           grid-template-columns: 1fr;
       }
-
+.cta_two ._cta_section{
+    flex-direction: column;
+}
       ._features_container {
           flex-direction: column;
           gap: 15px;
