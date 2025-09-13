@@ -31,7 +31,7 @@
   }
 
   ._hero_content {
-      max-width: 1350px;
+      max-width: 100%;
       margin: 0 auto;
       padding: 60px 20px;
       display: grid;
@@ -182,7 +182,7 @@
   }
 
   ._products_section {
-      max-width: 1350px;
+      max-width: 100%;
       margin: 0 auto;
       padding: 60px 20px;
   }
@@ -425,7 +425,7 @@
   }
 
   section.cta_two {
-      max-width: 1350px;
+      max-width: 100%;
       margin: 0 auto;
       padding: 60px 20px;
   }
@@ -557,7 +557,7 @@
   }
 
   .help-container {
-      max-width: 1350px;
+      max-width: 100%;
       margin: 0 auto;
       display: flex;
       align-items: center;
