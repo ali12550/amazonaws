@@ -656,7 +656,7 @@
       }
 
       .cta_two ._cta_section  ._cta_card {
-          width: 100%;
+          max-width: 100%;
       }
 
       ._features_container {
