@@ -432,12 +432,13 @@
       padding: 60px 20px;
   }
 
+  .cta_two ._cta_section  {
+   display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
   .cta_two ._cta_card {
-      border-radius: 16px;
-      padding: 5px;
-      color: var(--accent-color);
-      position: relative;
-      overflow: hidden;
+    max-width: 40%;
   }
 
   .cta_two ._cta_card img {
