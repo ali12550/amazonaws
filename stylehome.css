@@ -9,6 +9,8 @@
 
   body {
       font-family: arial, sans-serif !important;
+      margin: 0px !important;
+      padding: 0px !important;
   }
 
   /* old slider  home page display none */
