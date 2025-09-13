@@ -655,7 +655,7 @@
           flex-direction: column;
       }
 
-      .cta_two ._cta_section .cta_two ._cta_card {
+      .cta_two ._cta_section  ._cta_card {
           width: 100%;
       }
 
