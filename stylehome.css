@@ -645,6 +645,9 @@
 .cta_two ._cta_section{
     flex-direction: column;
 }
+.cta_two ._cta_section  .cta_two ._cta_card{
+    width: 100%;
+}
       ._features_container {
           flex-direction: column;
           gap: 15px;
