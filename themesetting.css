@@ -1,3 +1,9 @@
+body {
+    min-width: unset !important;
+}
+
+
+
 /* Header Top Start */
 .header-top-group  #phone-number  .glyphicon,
 .header-top-group #phone-number a{
@@ -32,6 +38,8 @@ background: none !important;
     font-family: Arial, sans-serif !important;
 padding: 10px 10px !important;
 }
+
+
 .dropdown-menu, ul.dropdown-menu {
     background-color: white !important;
 }
@@ -44,6 +52,10 @@ text-align: start;
 }
 
 
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    color: white !important;
+    background-color: #142c4f !important;
+}
 
 
 
@@ -56,8 +68,12 @@ margin-top: 14px !important;
 .container.expanded-nav .nav-expanded .form-control:focus
 {
     box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .35) !important;
-    
+    box-shadow: 0 0px 3px 0px rgba(0, 0, 0, .075) !important;
+    border: 1px solid #ccc !important;
+    border-radius: 3px !important;
+    height: 40px !important;
 }
+    
 
 
 #multiple-datasets {
@@ -165,9 +181,13 @@ border: 1px solid #142c4f !important;
 font-size: 16px !important;
 }
 
+#submitGetQuote,
 a.design-choice {
     background: #142c4f !important;
     border: none !important;
+}
+#shippingQuoteResults {
+    color: black !important;
 }
 a.design-choice:hover {
     color: white !important;
@@ -181,6 +201,12 @@ color: #000000 !important;
     box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .35) !important;
     border: none !important;
     
+}
+
+
+#addToFavorites {
+    background: #142c4f !important;
+    color: white !important;
 }
 
 input.total-product-price{
