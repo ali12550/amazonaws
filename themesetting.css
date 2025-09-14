@@ -7,9 +7,12 @@
 .header-top-group{
 display: flex !important;
 align-items: center !important;
+justify-content: space-between !important;
 }
 
- 
+ .header-top-group .header-center{
+display:none;
+}
 
 
 /* navbar */
@@ -25,16 +28,21 @@ background: none !important;
 
 .navbar-default .navbar-nav>li>a {
     color: #000000 !important;
-    font-size: 17px !important;
+    font-size: 15px !important;
     font-family: Arial, sans-serif !important;
+padding: 10px 10px !important;
 }
-.navbar.navbar-static-top, #compact-header, #compact-header .navbar-collapse, .dropdown-menu, ul.dropdown-menu {
-    background-color: rgb(255 255 255) !important;
+.dropdown-menu, ul.dropdown-menu {
+    background-color: white !important;
 }
-
 .dropdown-menu>li>a{
 color: black !important;
+font-size: 16px !important;
+text-align: start;
+    border-bottom: 1px solid #e1e2e1 !important;
+    padding-bottom: 8px !important;
 }
+
 
 
 
@@ -82,16 +90,39 @@ margin-top: 14px !important;
 
 
 
-
+/* other pages start*/
 .light-borders,div#page-content.light-borders{
     border: none !important;
 }
+#cart-header,
+#cart-header h1,
 h1#page-title{
- 
+
     background: none !important;
     border: none !important;
 color: #1B3A6F !important;
 }
+.InvalidFormItem {
+    background-color: #ffffff !important;
+}
+
+#login-button, .login-button {
+ 
+    background: #142c4f !important;
+    border: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* other pages end*/
+
 
 
 
@@ -118,11 +149,42 @@ font-family: Arial !important;
 font-size:17px !important;
 }
 
+.product-price label,
+h1#product-title{
+color: #000000 !important;
+}
+
+.progress-complete {
+    background: #142c4f !important;
+    color: white !important;
+}
+#cart-progression{
+border: 1px solid #142c4f !important;
+}
+.estimated-date{
+font-size: 16px !important;
+}
+
+a.design-choice {
+    background: #142c4f !important;
+    border: none !important;
+}
+a.design-choice:hover {
+    color: white !important;
+}
+#tabsContainer .nav-tabs>li>a {
+color: #000000 !important;
+}
+
 #product-calculator #calculator .form-control:focus
 {
     box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .35) !important;
     border: none !important;
     
+}
+
+input.total-product-price{
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075) !important;
 }
 
 #calculator .product-options #add-to-cart {
@@ -135,7 +197,4 @@ border:none !important;
 }
 
 
-#calculator .product-options  #add-to-cart-cbDesigner-calc {
-    background: #1381cd !important;
-}
 /* product page end*/
